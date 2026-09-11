@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Ansible
+ansible/inventory.ini
+ansible/*.retry
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.pem
+secrets.yaml
