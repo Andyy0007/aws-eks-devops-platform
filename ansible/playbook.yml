@@ -1,0 +1,7 @@
+---
+- name: Configure DevOps EC2 administration host
+  hosts: devops
+  become: true
+
+  roles:
+    - common
